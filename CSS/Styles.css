@@ -1264,6 +1264,8 @@ h1#h3 {
 }
 .storage {
   background-color: #333645;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .storage-section {
