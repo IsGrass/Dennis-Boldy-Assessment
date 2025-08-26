@@ -556,7 +556,16 @@ text-decoration: underline;
     bottom: 13px;
     position: relative;
 }
-
+@media(max-width:765px){
+    #banner{
+        width: 765px;
+    }
+}
+@media(min-width:1250px){
+    #banner{
+        width: 1250px;
+    }
+}
 #banner{
     position: relative;
 }
@@ -635,6 +644,14 @@ text-decoration: underline;
 }
 h1#h3{
     font-size: 2.25rem;
+    
+}
+h1#h3 a{
+color: #000;
+text-decoration: none;
+}
+#h3 :hover{
+    text-decoration: underline;
 }
 .h2{
     font-size: 2.25rem;
@@ -763,7 +780,12 @@ h1#h3{
     top: -10px;
     transition: .5s ease;
     background-color: #67809f;
-
+    .h4{
+        color: #fff;
+    }
+    .p{
+        color: #fff;
+    }
     #ic{
         background-color: #fff;
         color:#67809f;
@@ -779,7 +801,12 @@ h1#h3{
     top: -10px;
     transition: .5s ease;
     background-color: #4183d7;
-
+    .h4{
+        color: #fff;
+    }
+    .p{
+        color: #fff;
+    }
     #ic2{
         background-color: #fff;
         color: #4183d7;
@@ -795,7 +822,12 @@ h1#h3{
     top: -10px;
     transition: .5s ease;
     background-color: #2ecc71;
-
+    .h4{
+        color: #fff;
+    }
+    .p{
+        color: #fff;
+    }
     #ic3{
         background-color: #fff;
         color: #2ecc71;
@@ -811,7 +843,12 @@ h1#h3{
     top: -10px;
     transition: .5s ease;
     background-color: #d64541;
-
+    .h4{
+        color: #fff;
+    }
+    .p{
+        color: #fff;
+    }
     #ic4{
         background-color: #fff;
         color: #d64541;
@@ -827,7 +864,12 @@ h1#h3{
     top: -10px;
     transition: .5s ease;
     background-color: #926fb1;
-
+    .h4{
+        color: #fff;
+    }
+    .p{
+        color: #fff;
+    }
     #ic5{
         background-color: #fff;
         color: #926fb1;
@@ -843,7 +885,12 @@ h1#h3{
     top: -10px;
     transition: .5s ease;
     background-color: #f62459;
-
+    .h4{
+        color: #fff;
+    }
+    .p{
+        color: #fff;
+    }
     #ic6{
         background-color: #fff;
         color: #f62459;
@@ -859,7 +906,12 @@ h1#h3{
     top: -10px;
     transition: .5s ease;
     background-color: #ce4125;
-
+    .h4{
+        color: #fff;
+    }
+    .p{
+        color: #fff;
+    }
     #ic7{
         background-color: #fff;
         color: #ce4125;
@@ -1653,8 +1705,20 @@ li{
         bottom: 0;
         left: 0;
         z-index: 1;
+        width: 300px;
     }
-
+    .article3{
+        left: 635px;
+        top:45px;
+    }
+    .article2{
+        left: 325px;
+        top:45px;
+    }
+    .article{
+        left: 15px;
+        top: 45px;
+    }
     .img-container{
         box-sizing: border-box;
         position: relative;
@@ -1737,7 +1801,9 @@ li{
     }
 
     }
-    
+    #vall :hover{
+        text-decoration: underline;
+    }
 
     .btn-id{
         color: #fff;
