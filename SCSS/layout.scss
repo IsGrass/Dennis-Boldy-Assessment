@@ -1,3 +1,4 @@
+@import "colors";
 body {
     margin: 0;
             
@@ -37,13 +38,13 @@ display: none;
         margin-right: 10px;
     }
     .bb{
-        background-color: #4183d7;
-        border-color: #4183d7;
+        background-color: $blue1;
+        border-color: $blue1;
         padding: 15px;
     }
     .gb{
-        background-color: #999aa2;
-        border-color: #999aa2;
+        background-color: $grey3;
+        border-color: $grey3;
         padding: 15px;
         margin-left: 10px;
     }
@@ -60,7 +61,7 @@ display: none;
     .mainnav{
     display: flex;
     flex-direction: row;
-    background-color: #333645;
+    background-color: $grey4;
     }
 }
 .maincontainer{
@@ -229,35 +230,35 @@ display: none;
     padding-left: 80px;
 }
 .test :hover{
-    background-color: #67809f;
+    background-color: $grey1;
     .triangle{
         background-color: transparent;
-        border-color: #67809f transparent transparent;
-        border-top: #67809f solid 20px;
+        border-color: $grey1 transparent transparent;
+        border-top: $grey1 solid 20px;
     }
     .nav1{
         color: #fff;
     }
     .banner1, .sublist{
-        background-color: #526781;
+        background-color: $grey2;
         display: flex;
     }
     .sublist li, .sublist a, .sublist span, .subtest{
-        background-color: #526781;
+        background-color: $grey2;
     }
 }
 .test2 :hover{
-    background-color: #4183d7;
+    background-color: $blue1;
     .triangle2{
         background-color: transparent;
-        border-color: #4183d7 transparent transparent;
-        border-top: #4183d7 solid 20px;
+        border-color: $blue1 transparent transparent;
+        border-top: $blue1 solid 20px;
     }
     .nav2{
         color: #fff;
     }
     .banner2, .sublist{
-        background-color: #286abd;
+        background-color: $blue2;
         display: flex;
     }
     .sublist li, .sublist a, .sublist span, .subtest{
@@ -265,17 +266,17 @@ display: none;
     }
 }
 .test3 :hover{
-    background-color: #2ecc71;
+    background-color: $green1;
     .triangle3{
         background-color: transparent;
-        border-color: #2ecc71 transparent transparent;
-        border-top: #2ecc71 solid 20px;
+        border-color: $green1 transparent transparent;
+        border-top: $green1 solid 20px;
     }
     .nav3{
         color: #fff;
     }
     .banner3, .sublist{
-        background-color: #25a25a;
+        background-color: $green2;
         display: flex;
     }
     .sublist li, .sublist a, .sublist span, .subtest{
@@ -283,17 +284,17 @@ display: none;
     }
 }
 .test4 :hover{
-    background-color: #d64541;
+    background-color: $red1;
     .triangle4{
         background-color: transparent;
-        border-color: #d64541 transparent transparent;
-        border-top: #d64541 solid 20px;
+        border-color: $red1 transparent transparent;
+        border-top: $red1 solid 20px;
     }
     .nav4{
         color: #fff;
     }
     .banner4, .sublist{
-        background-color: #bc2c28;
+        background-color: $red2;
         display: flex;
     }
     .sublist li, .sublist a, .sublist span, .subtest{
@@ -301,17 +302,17 @@ display: none;
     }
 }
 .test5 :hover{
-    background-color: #926fb1;
+    background-color: $purple1;
     .triangle5{
         background-color: transparent;
-        border-color: #926fb1 transparent transparent;
-        border-top: #926fb1 solid 20px;
+        border-color: $purple1 transparent transparent;
+        border-top: $purple1 solid 20px;
     }
     .nav5{
         color: #fff;
     }
     .banner5, .sublist{
-        background-color: #79539a;
+        background-color: $purple2;
         display: flex;
     }
     .sublist li, .sublist a, .sublist span, .subtest{
@@ -319,17 +320,17 @@ display: none;
     }
 }
 .test6 :hover{
-    background-color: #f62459;
+    background-color: $red3;
     .triangle6{
         background-color: transparent;
-        border-color: #f62459 transparent transparent;
-        border-top: #f62459 solid 20px;
+        border-color: $red3 transparent transparent;
+        border-top: $red3 solid 20px;
     }
     .nav6{
         color: #fff;
     }
     .banner6, .sublist{
-        background-color: #de093f;
+        background-color: $red4;
         display: flex;
     }
     .sublist li, .sublist a, .sublist span, .subtest{
@@ -337,17 +338,17 @@ display: none;
     }
 }
 .test7 :hover{
-    background-color: #ce4125;
+    background-color: $orange1;
     .triangle7{
         background-color: transparent;
-        border-color: #ce4125 transparent transparent;
-        border-top: #ce4125 solid 20px;
+        border-color: $orange1 transparent transparent;
+        border-top: $orange1 solid 20px;
     }
     .nav7{
         color: #fff;
     }
     .banner7, .sublist{
-        background-color: #a3331d;
+        background-color: $orange2;
         display: flex;
     }
     .sublist li, .sublist a, .sublist span, .subtest{
@@ -370,25 +371,25 @@ text-decoration: underline;
     color: #fff;
 }
 .nav1{
-    color: #67809f;
+    color: $grey1;
 }
 .nav2{
-    color: #4183d7;
+    color: $blue1;
 }
 .nav3{
-    color: #2ecc71;
+    color: $green1;
 }
 .nav4{
-    color: #d64541;
+    color: $red1;
 }
 .nav5{
-    color: #926fb1;
+    color: $purple1;
 }
 .nav6{
-    color: #f62459;
+    color: $red3;
 }
 .nav7{
-    color: #ce4125;
+    color: $orange1;
 }
 .nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7{
        font-size: 1.438rem;
@@ -441,7 +442,7 @@ text-decoration: underline;
     border-radius: 0 3px 3px 0;
     border: none;
     vertical-align: bottom;
-    background-color: #999aa2;
+    background-color: $grey3;
     color: #fff;
 }
 .icon2{
@@ -500,7 +501,7 @@ text-decoration: underline;
 #search-sub{
     background: none;
     border: none;
-    color: #333645;
+    color: $grey4;
     position: absolute;
     right: 5px;
     line-height: 47px;
@@ -525,8 +526,8 @@ text-decoration: underline;
 }
 .hbtn{
     color: #fff;
-    background-color: #333645;
-    border-color: #333645;
+    background-color: $grey4;
+    border-color: $grey4;
     margin-left: 20px;
     height: 50px;
     line-height: 46px;
@@ -596,8 +597,8 @@ text-decoration: underline;
     padding: 10px 30px;
     font-size: 1.25rem;
     color: #fff;
-    background-color: #2ecc71;
-    border-color: #2ecc71;
+    background-color: $green1;
+    border-color: $green1;
     border-radius: 3px;
     white-space: normal;
     text-decoration: none;
@@ -667,7 +668,7 @@ text-decoration: none;
     top: 0;
     transition: .5s ease;
     font-weight: 600;
-    color: #333645;  
+    color: $grey4;  
     padding: 30px;
     display: block;
     border: 1px solid #ccc;
@@ -683,7 +684,7 @@ text-decoration: none;
     top: 0;
     transition: .5s ease;
     font-weight: 600;
-    color: #333645;  
+    color: $grey4;  
     padding: 30px;
     display: block;
     border: 1px solid #ccc;
@@ -699,7 +700,7 @@ text-decoration: none;
     top: 0;
     transition: .5s ease;
     font-weight: 600;
-    color: #333645;  
+    color: $grey4;  
     padding: 30px;
     display: block;
     border: 1px solid #ccc;
@@ -715,7 +716,7 @@ text-decoration: none;
     top: 0;
     transition: .5s ease;
     font-weight: 600;
-    color: #333645;  
+    color: $grey4;  
     padding: 30px;
     display: block;
     border: 1px solid #ccc;
@@ -731,7 +732,7 @@ text-decoration: none;
     top: 0;
     transition: .5s ease;
     font-weight: 600;
-    color: #333645;  
+    color: $grey4;  
     padding: 30px;
     display: block;
     border: 1px solid #ccc;
@@ -747,7 +748,7 @@ text-decoration: none;
     top: 0;
     transition: .5s ease;
     font-weight: 600;
-    color: #333645;  
+    color: $grey4;  
     padding: 30px;
     display: block;
     border: 1px solid #ccc;
@@ -763,7 +764,7 @@ text-decoration: none;
     top: 0;
     transition: .5s ease;
     font-weight: 600;
-    color: #333645;  
+    color: $grey4;  
     padding: 30px;
     display: block;
     border: 1px solid #ccc;
@@ -775,7 +776,7 @@ text-decoration: none;
     border-color: transparent;
     top: -10px;
     transition: .5s ease;
-    background-color: #67809f;
+    background-color: $grey1;
     .h4{
         color: #fff;
     }
@@ -784,10 +785,10 @@ text-decoration: none;
     }
     #ic{
         background-color: #fff;
-        color:#67809f;
+        color:$grey1;
     }
     .btn1{
-        color: #67809f;
+        color: $grey1;
         background-color: #fff;
     }
 }
@@ -796,7 +797,7 @@ text-decoration: none;
     border-color: transparent;
     top: -10px;
     transition: .5s ease;
-    background-color: #4183d7;
+    background-color: $blue1;
     .h4{
         color: #fff;
     }
@@ -805,10 +806,10 @@ text-decoration: none;
     }
     #ic2{
         background-color: #fff;
-        color: #4183d7;
+        color: $blue1;
     }
     .btn2{
-        color: #4183d7;
+        color: $blue1;
         background-color: #fff;
     }
 }
@@ -817,7 +818,7 @@ text-decoration: none;
     border-color: transparent;
     top: -10px;
     transition: .5s ease;
-    background-color: #2ecc71;
+    background-color: $green1;
     .h4{
         color: #fff;
     }
@@ -826,10 +827,10 @@ text-decoration: none;
     }
     #ic3{
         background-color: #fff;
-        color: #2ecc71;
+        color: $green1;
     }
     .btn3{
-        color: #2ecc71;
+        color: $green1;
         background-color: #fff;
     }
 }
@@ -838,7 +839,7 @@ text-decoration: none;
     border-color: transparent;
     top: -10px;
     transition: .5s ease;
-    background-color: #d64541;
+    background-color: $red1;
     .h4{
         color: #fff;
     }
@@ -847,10 +848,10 @@ text-decoration: none;
     }
     #ic4{
         background-color: #fff;
-        color: #d64541;
+        color: $red1;
     }
     .btn4{
-        color: #d64541;
+        color: $red1;
         background-color: #fff;
     }
 }
@@ -859,7 +860,7 @@ text-decoration: none;
     border-color: transparent;
     top: -10px;
     transition: .5s ease;
-    background-color: #926fb1;
+    background-color: $purple1;
     .h4{
         color: #fff;
     }
@@ -868,10 +869,10 @@ text-decoration: none;
     }
     #ic5{
         background-color: #fff;
-        color: #926fb1;
+        color: $purple1;
     }
     .btn5{
-        color: #926fb1;
+        color: $purple1;
         background-color: #fff;
     }
 }
@@ -880,7 +881,7 @@ text-decoration: none;
     border-color: transparent;
     top: -10px;
     transition: .5s ease;
-    background-color: #f62459;
+    background-color: $red3;
     .h4{
         color: #fff;
     }
@@ -889,10 +890,10 @@ text-decoration: none;
     }
     #ic6{
         background-color: #fff;
-        color: #f62459;
+        color: $red3;
     }
     .btn6{
-        color: #f62459;
+        color: $red3;
         background-color: #fff;
     }
 }
@@ -901,7 +902,7 @@ text-decoration: none;
     border-color: transparent;
     top: -10px;
     transition: .5s ease;
-    background-color: #ce4125;
+    background-color: $orange1;
     .h4{
         color: #fff;
     }
@@ -910,10 +911,10 @@ text-decoration: none;
     }
     #ic7{
         background-color: #fff;
-        color: #ce4125;
+        color: $orange1;
     }
     .btn7{
-        color: #ce4125;
+        color: $orange1;
         background-color: #fff;
     }
 }
@@ -949,43 +950,43 @@ text-decoration: none;
 }
 .btn1{        
     color: #fff;
-    background-color: #f7b322;
-    border-color: #f7b322;
+    background-color: $yellow1;
+    border-color: $yellow1;
 }
 .btn2{        
     color: #fff;
-    background-color: #4183d7;
-    border-color: #4183d7;
+    background-color: $blue1;
+    border-color: $blue1;
 }
 .btn3{        
     color: #fff;
-    background-color: #2ecc71;
-    border-color: #2ecc71;
+    background-color: $green1;
+    border-color: $green1;
 }
 .btn4{        
     color: #fff;
-    background-color: #d64541;
-    border-color: #d64541;
+    background-color: $red1;
+    border-color: $red1;
 }
 .btn5{        
     color: #fff;
-    background-color: #926fb1;
-    border-color: #926fb1;
+    background-color: $purple1;
+    border-color: $purple1;
 }
 .btn6{        
     color: #fff;
-    background-color: #f62459;
-    border-color: #f62459;
+    background-color: $red3;
+    border-color: $red3;
 }
 .btn7{        
     color: #fff;
-    background-color: #ce4125;
-    border-color: #ce4125;
+    background-color: $orange1;
+    border-color: $orange1;
 }
 #ic{
     font-size: 2rem;
     line-height: 62px;
-    background-color: #67809f;
+    background-color: $grey1;
     height: 65px;
     width: 65px;
     margin: 0 auto 17px;
@@ -995,7 +996,7 @@ text-decoration: none;
 #ic2{
     font-size: 2rem;
     line-height: 62px;
-    background-color: #4183d7;
+    background-color: $blue1;
     height: 65px;
     width: 65px;
     margin: 0 auto 17px;
@@ -1005,7 +1006,7 @@ text-decoration: none;
 #ic3{
     font-size: 2rem;
     line-height: 62px;
-    background-color: #2ecc71;
+    background-color: $green1;
     height: 65px;
     width: 65px;
     margin: 0 auto 17px;
@@ -1015,7 +1016,7 @@ text-decoration: none;
 #ic4{
     font-size: 2rem;
     line-height: 62px;
-    background-color: #d64541;
+    background-color: $red1;
     height: 65px;
     width: 65px;
     margin: 0 auto 17px;
@@ -1025,7 +1026,7 @@ text-decoration: none;
 #ic5{
     font-size: 2rem;
     line-height: 62px;
-    background-color: #926fb1;
+    background-color: $purple1;
     height: 65px;
     width: 65px;
     margin: 0 auto 17px;
@@ -1035,7 +1036,7 @@ text-decoration: none;
 #ic6{
     font-size: 2rem;
     line-height: 62px;
-    background-color: #f62459;
+    background-color: $red3;
     height: 65px;
     width: 65px;
     margin: 0 auto 17px;
@@ -1045,7 +1046,7 @@ text-decoration: none;
 #ic7{
     font-size: 2rem;
     line-height: 62px;
-    background-color: #ce4125;
+    background-color: $orange1;
     height: 65px;
     width: 65px;
     margin: 0 auto 17px;
@@ -1057,14 +1058,14 @@ text-decoration: none;
     position: relative;        
     padding-bottom: 10px;
     margin: 0 0 11px;
-    color: #333645;
+    color: $grey4;
 }
 .p{
     font-size: .8125rem;
     line-height: 1.375rem;
     margin-bottom: 13px;
     font-weight: 400;
-    color: #333645;
+    color: $grey4;
 }
 
 @media (min-width: 768px){
@@ -1210,7 +1211,7 @@ text-decoration: none;
     }
 }
 .storage{
-        background-color: #333645;
+        background-color: $grey4;
         margin-left: -15px;
         margin-right: -15px;
 }
@@ -1299,7 +1300,7 @@ strong.net{
 }
 h2{
         font-weight: 550;
-        color: #333645;
+        color: $grey4;
         font-size: 36px;
 }
 .head-con{    
@@ -1356,7 +1357,7 @@ h2{
     display: block;
 }
 .swanbtn{
-    background-color: #f7b322;
+    background-color: $yellow1;
     color: #fff;
     padding: 8px;
     text-decoration: none;
@@ -1385,7 +1386,7 @@ h2{
     display: block;
 }
 .ashbtn{
-    background-color: #79539a;
+    background-color: $purple2;
     color: #fff;
     padding: 8px;
     text-decoration: none;
@@ -1730,7 +1731,7 @@ li{
         line-height: 1.438rem;
         text-transform: uppercase;
         z-index: 1;
-        background-color: #4183d7;
+        background-color: $blue1;
         top: 10px;
         font-weight: 600;
     }
@@ -1744,7 +1745,7 @@ li{
         line-height: 1.438rem;
         text-transform: uppercase;
         z-index: 1;
-        background-color: #67809f;
+        background-color: $grey1;
         top: 10px;
         font-weight: 600;
     }
@@ -1760,10 +1761,10 @@ li{
             line-height: 1.5rem;
             font-weight: 400;
             margin: 0 0 15px;
-            color: #333645;
+            color: $grey4;
 
             a{
-                color: #4183d7;
+                color: $blue1;
                 text-decoration: none;
             }
         }
@@ -1792,7 +1793,7 @@ li{
         font-size: 1.625rem;
         font-weight: 400;
         margin-bottom: 15px;
-        color:#333645;
+        color:$grey4;
         text-decoration: none;
     }
 
@@ -1803,14 +1804,14 @@ li{
 
     .btn-id{
         color: #fff;
-    background-color: #4183d7;
-    border-color: #4183d7;
+    background-color: $blue1;
+    border-color: $blue1;
     }
 
     .btn-id2{
          color: #fff;
-        background-color: #f7b322;
-        border-color: #f7b322;   
+        background-color: $yellow1;
+        border-color: $yellow1;   
     }
     .btn{
         display: inline-block;
@@ -1964,3 +1965,4 @@ footer {
         padding: 5px 0 10px;
     }
 }
+
