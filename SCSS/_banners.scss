@@ -1,0 +1,482 @@
+.triangle{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-left: transparent solid 70px;
+    border-right: transparent solid 70px;
+    margin-bottom: -25px;
+    top: -2px;
+}
+.triangle2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-left: transparent solid 70px;
+    border-right: transparent solid 70px;
+    margin-bottom: -3px;
+    top: 19px;
+}
+.triangle3{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-left: transparent solid 70px;
+    border-right: transparent solid 70px;
+    margin-bottom: -3px;
+    top: 19px;
+}
+.triangle4{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-left: transparent solid 70px;
+    border-right: transparent solid 70px;
+    margin-bottom: -3px;
+    top: 19px;
+}
+.triangle5{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-left: transparent solid 70px;
+    border-right: transparent solid 70px;
+    margin-bottom: -3px;
+    top: 19px;
+}
+.triangle6{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-left: transparent solid 70px;
+    border-right: transparent solid 70px;
+    margin-bottom: -3px;
+    top: 19px;
+}
+.triangle7{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 90;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-left: transparent solid 70px;
+    border-right: transparent solid 70px;
+    margin-bottom: -3px;
+    top: 19px;
+}
+.banner{
+    margin: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: none;
+}
+
+.bannerdiv{
+    display: inline-block;
+}
+.sub{
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.313rem;
+    padding: .625rem .938rem .625rem 0;
+    display: flex;
+    align-items: center;
+}
+.subtest{
+    display: grid;
+    columns: 3;
+    display: table-row-group;
+    gap: 30px;
+}
+.subheader{
+    width: 100%;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 2rem;
+}
+#sublist{
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    padding-left: 80px;
+}
+.test :hover{
+    background-color: $grey1;
+    .triangle{
+        background-color: transparent;
+        border-color: $grey1 transparent transparent;
+        border-top: $grey1 solid 20px;
+    }
+    .nav1{
+        color: #fff;
+    }
+    .banner1, .sublist{
+        background-color: $grey2;
+        display: flex;
+    }
+    .sublist li, .sublist a, .sublist span, .subtest{
+        background-color: $grey2;
+    }
+}
+.test2 :hover{
+    background-color: $blue1;
+    .triangle2{
+        background-color: transparent;
+        border-color: $blue1 transparent transparent;
+        border-top: $blue1 solid 20px;
+    }
+    .nav2{
+        color: #fff;
+    }
+    .banner2, .sublist{
+        background-color: $blue2;
+        display: flex;
+    }
+    .sublist li, .sublist a, .sublist span, .subtest{
+        background-color: transparent;
+    }
+}
+.test3 :hover{
+    background-color: $green1;
+    .triangle3{
+        background-color: transparent;
+        border-color: $green1 transparent transparent;
+        border-top: $green1 solid 20px;
+    }
+    .nav3{
+        color: #fff;
+    }
+    .banner3, .sublist{
+        background-color: $green2;
+        display: flex;
+    }
+    .sublist li, .sublist a, .sublist span, .subtest{
+        background-color: transparent;
+    }
+}
+.test4 :hover{
+    background-color: $red1;
+    .triangle4{
+        background-color: transparent;
+        border-color: $red1 transparent transparent;
+        border-top: $red1 solid 20px;
+    }
+    .nav4{
+        color: #fff;
+    }
+    .banner4, .sublist{
+        background-color: $red2;
+        display: flex;
+    }
+    .sublist li, .sublist a, .sublist span, .subtest{
+        background-color: transparent;
+    }
+}
+.test5 :hover{
+    background-color: $purple1;
+    .triangle5{
+        background-color: transparent;
+        border-color: $purple1 transparent transparent;
+        border-top: $purple1 solid 20px;
+    }
+    .nav5{
+        color: #fff;
+    }
+    .banner5, .sublist{
+        background-color: $purple2;
+        display: flex;
+    }
+    .sublist li, .sublist a, .sublist span, .subtest{
+        background-color: transparent;
+    }
+}
+.test6 :hover{
+    background-color: $red3;
+    .triangle6{
+        background-color: transparent;
+        border-color: $red3 transparent transparent;
+        border-top: $red3 solid 20px;
+    }
+    .nav6{
+        color: #fff;
+    }
+    .banner6, .sublist{
+        background-color: $red4;
+        display: flex;
+    }
+    .sublist li, .sublist a, .sublist span, .subtest{
+        background-color: transparent;
+    }
+}
+.test7 :hover{
+    background-color: $orange1;
+    .triangle7{
+        background-color: transparent;
+        border-color: $orange1 transparent transparent;
+        border-top: $orange1 solid 20px;
+    }
+    .nav7{
+        color: #fff;
+    }
+    .banner7, .sublist{
+        background-color: $orange2;
+        display: flex;
+    }
+    .sublist li, .sublist a, .sublist span, .subtest{
+        background-color: transparent;
+    }
+}
+.subtest li :hover{
+text-decoration: underline;
+}
+.ulnav{
+    margin-top: 0;
+}
+.nav{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav1{
+    color: $grey1;
+}
+.nav2{
+    color: $blue1;
+}
+.nav3{
+    color: $green1;
+}
+.nav4{
+    color: $red1;
+}
+.nav5{
+    color: $purple1;
+}
+.nav6{
+    color: $red3;
+}
+.nav7{
+    color: $orange1;
+}
+.nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7{
+       font-size: 1.438rem;
+    display: block;
+    padding-bottom: 10px; 
+}
+.nav{
+    text-align: center;
+}
+@media (min-width:768px){
+    .hcon2{
+    width: 50%;
+   } 
+   .ph, .cacoon, .search{
+    display: none;
+   }
+   .cacoon span{
+    display: none;
+   }
+   .search1{
+        display: inline-block;
+        border-radius: 0;
+        width: 265px;
+   }
+   .hcon2{
+    margin-right: 10px;
+   }
+   .search1{
+        display: none;
+    }
+}
+@media (max-width:768px){
+    #fbox{
+        display: none;
+    }
+}
+.search1{
+    height: 56px;
+    display: block;
+}
+.sbar{
+    height: 50px;
+    width: 200px;
+}
+#sub-search{
+    outline: none;
+    padding: 7px 20px 3px;
+    height: 50px;
+    font-size: 1.063rem;
+    border-radius: 0 3px 3px 0;
+    border: none;
+    vertical-align: bottom;
+    background-color: $grey3;
+    color: #fff;
+}
+.icon2{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: Glyphicons Halflings;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+.fbox{
+    display: table-cell;
+}
+.cacoon{
+    font-size: 32px;
+    margin-left: 15px;
+    color: #000;
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+.hcon{
+    padding: 0;
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+    width: 100%;
+}
+.hcon2{
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+.hrow{
+    width: 100%;
+    margin: 0;
+}
+.search{
+    position: relative;
+    margin-top: 11px;
+    width: 100%;
+    height: 30px;
+}
+.formcon{
+    background-color: rgba(0, 0, 0, .1);
+    outline: 1px solid hsla(0, 0%, 100%, .2);
+    border: 2px solid rgba(0, 0, 0, .1);
+    transition: none;
+    width: 97%;
+    margin-left: 10px;
+    height: 47px;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+}
+#search-sub{
+    background: none;
+    border: none;
+    color: $grey4;
+    position: absolute;
+    right: 5px;
+    line-height: 47px;
+    font-size: 20px;
+    outline: none;
+    margin-right: 15px;
+}
+@media (min-width:980px){
+    .text .h1, .text p{
+        text-align: left;
+    }
+    .topbtn{
+        float: left;
+    }
+}
+.imgcon{
+    padding: 0;
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+    width: 100%;
+}
+.hbtn{
+    color: #fff;
+    background-color: $grey4;
+    border-color: $grey4;
+    margin-left: 20px;
+    height: 50px;
+    line-height: 46px;
+    font-size: 1.12rem;
+    display: inline-block;
+    width: 50px;
+    vertical-align: super;
+}
+.hbox, .hinner{
+    font-size: 1.438rem;
+    line-height: 45px;
+    color: $grey4;
+    top: 55px;
+}
+.hinner, .hinner2, .hinner3{
+    background-color: #fff;
+    border-radius: 0;
+    width: 33px;
+    height: 4px;
+    position: absolute;
+    display: block;
+    margin-top: -1.5px;
+}
+.hinner2{
+    top: 11px;
+    position: relative;
+}
+.hinner3{
+    bottom: 11px;
+    position: relative;
+}
+@media(max-width:765px){
+    #banner{
+        width: 765px;
+    }
+}
+
+#banner{
+    position: relative;
+}
