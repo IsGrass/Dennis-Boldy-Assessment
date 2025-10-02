@@ -1,0 +1,50 @@
+@import 'colors';
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: -350px;
+    height: 100%;
+    background: $grey4;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    transition: right 0.4s cubic-bezier(0.4,0,0.2,1);
+    z-index: 9999;
+    padding: 30px 20px;
+}
+
+#sidebar.active {
+    right: 0;
+}
+
+#closeSidebar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.sidebar-list{
+    color: #fff;
+    font-size: medium;
+    margin-left: -40px;
+}
+.body-shift {
+    transform: translateX(-200px);
+    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+    margin-left: 200px;
+}
+.sideli{
+    margin: 35px 0 5px 15px;
+}
+.sideli li{
+    padding-left: 15px;
+}
+.bg{
+    background-color: $grey2;
+    padding: 1px 0 1px 15px;
+    margin-left: -20px;
+    margin-right: -20px;
+}

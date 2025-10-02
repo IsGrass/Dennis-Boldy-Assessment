@@ -461,11 +461,13 @@ text-decoration: underline;
     height: 4px;
     position: absolute;
     display: block;
-    margin-top: -1.5px;
+    margin-top: -4.5px;
+    margin-bottom: 7.5px;
 }
 .hinner2{
     top: 11px;
     position: relative;
+
 }
 .hinner3{
     bottom: 11px;
@@ -477,6 +479,18 @@ text-decoration: underline;
     }
 }
 
-#banner{
+#banner {
+    overflow: hidden;
     position: relative;
+    width: 100%;
+    max-width: 100vw;
+}
+.slides-wrapper {
+    display: flex;
+    transition: transform 0.7s cubic-bezier(0.4,0,0.2,1);
+    width: 100%;
+}
+.bannerslides {
+    min-width: 100%;
+    box-sizing: border-box;
 }

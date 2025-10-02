@@ -23,7 +23,12 @@ body {
 .mainnav{
     display: none;
 }
-header{
+
+.header-container header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #fff;
     margin: 20px;
     margin-top: 20px;
 }
@@ -937,8 +942,27 @@ li{
     #vall :hover{
         text-decoration: underline;
     }
-
-    
+    .cookie-popup {
+    display:none; 
+    position:fixed; 
+    bottom:30px; 
+    left:50%; 
+    transform:translateX(-50%); 
+    background:#fff; 
+    padding:20px 30px; 
+    border-radius:8px; 
+    box-shadow:0 2px 8px rgba(0,0,0,0.2); 
+    z-index:10000;
+    }
+    #accept-cookies {
+    margin-left:20px; 
+    background:#4caf50; 
+    color:#fff; 
+    border:none; 
+    padding:8px 16px; 
+    border-radius:4px; 
+    cursor:pointer;
+    }
 
 
 
