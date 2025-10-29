@@ -781,41 +781,24 @@
         <button id="accept-cookies">Accept</button>
     </div>
     </div>
-        <script>
-            let slideIndex = 0;
-            const slides = document.getElementsByClassName("bannerslides");
-            const wrapper = document.querySelector(".slides-wrapper");
-            const totalSlides = slides.length;
+       <?php
+            $slides_count = 7;
 
-            function showSlides() {
-                slideIndex++;
-                if (slideIndex >= totalSlides) slideIndex = 0;
-                wrapper.style.transform = `translateX(-${slideIndex * 100}%)`;
-                setTimeout(showSlides, 4000);
+
+            if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['accept_cookies'])) {
+                setcookie('cookiesAccepted', '1', time() + 60 * 60 * 24 * 365, '/');
+                $redirect = strtok($_SERVER['REQUEST_URI'], '?');
+                header('Location: ' . $redirect);
+                exit;
             }
-            wrapper.style.transform = `translateX(0)`;
-            showSlides();
-        </script>
-        <script>
-            document.querySelector('.hbtn').addEventListener('click', function() {
-            document.getElementById('shift').classList.add('body-shift');
-            document.getElementById('sidebar').classList.add('active');
-        });
-            document.getElementById('closeSidebar').addEventListener('click', function() {
-            document.getElementById('shift').classList.remove('body-shift');
-            document.getElementById('sidebar').classList.remove('active');
-        });
-        </script>
-        <script>
-             window.addEventListener('DOMContentLoaded', function() {
-            if (!localStorage.getItem('cookiesAccepted',)) {
-                document.getElementById('cookie-popup').style.display = 'block';
-            }
-            document.getElementById('accept-cookies').onclick = function() {
-                localStorage.setItem('cookiesAccepted', 'true');
-                document.getElementById('cookie-popup').style.display = 'none';
-            };
-        });
-        </script>
+
+            $sidebarActive = (isset($_GET['sidebar']) && $_GET['sidebar'] === '1');
+
+            $slide = isset($_GET['slide']) ? (int)$_GET['slide'] : 0;
+            if ($slide < 0) $slide = 0;
+            if ($slide >= $slides_count) $slide = $slides_count - 1;
+
+            $cookiesAccepted = isset($_COOKIE['cookiesAccepted']);
+        ?>
     </body>
 </html>
