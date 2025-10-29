@@ -780,25 +780,7 @@
         This website uses cookies to ensure you get the best experience. 
         <button id="accept-cookies">Accept</button>
     </div>
-    </div>
-       <?php
-            $slides_count = 7;
+</div>
 
-
-            if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['accept_cookies'])) {
-                setcookie('cookiesAccepted', '1', time() + 60 * 60 * 24 * 365, '/');
-                $redirect = strtok($_SERVER['REQUEST_URI'], '?');
-                header('Location: ' . $redirect);
-                exit;
-            }
-
-            $sidebarActive = (isset($_GET['sidebar']) && $_GET['sidebar'] === '1');
-
-            $slide = isset($_GET['slide']) ? (int)$_GET['slide'] : 0;
-            if ($slide < 0) $slide = 0;
-            if ($slide >= $slides_count) $slide = $slides_count - 1;
-
-            $cookiesAccepted = isset($_COOKIE['cookiesAccepted']);
-        ?>
     </body>
 </html>
